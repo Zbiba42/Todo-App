@@ -1,0 +1,93 @@
+.task{
+    width: 75%;
+    height: 150px;
+    overflow: hidden;
+    margin: 20px auto;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    box-shadow: 0.1px 0 5px #4e4944;
+    position: relative;
+    transition: 0.3s;
+    
+}
+.task:hover{
+    scale: 1.05;
+}
+.task .taskName{
+    
+    
+    margin: 20px 5px;
+    float: left;
+}
+.task .desc{
+  
+    font-weight:500;
+    clear: both;
+    margin-left: 60px;
+}
+.button{
+  
+    border-radius: 5px;
+    width: 70px;
+    height: 20px;
+    border: 1px #97826e solid;
+    box-shadow: 1px 0 2px #97826e;
+    display: flex;
+    padding: 3px;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: auto;
+}
+.buttons{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.75;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+
+.fa-edit{
+    margin-left: 3px;
+    margin-right: 7px;
+}
+
+.fa-trash{
+    margin-left: 3px;
+    margin-right: 7px;
+}
+
+input, textarea{
+    /* border: none; */
+    background-color: inherit;
+    width: 300px;
+    border: 1px solid #97826e ;
+}
+.taskname{
+    border-radius: 5px;
+    padding-left: 5px;
+    margin: 20px 55px 0;
+    float: left;
+    height: 30px;
+    width: 500px;
+    font-size: x-large;
+    font-weight: 700;
+}
+textarea{
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 400px;
+    margin: 20px 0 0 57px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    
+}
+input:focus, textarea:focus, select:focus{
+    border: 1px solid #97826e ;
+    outline: none; 
+}

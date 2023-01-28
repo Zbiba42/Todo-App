@@ -1,0 +1,28 @@
+.box{
+    width: 20px;
+    height: 20px;
+    border: 1px #c0af9f solid;
+    float: left;
+    margin: 15px;
+    margin-top: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 1px 0 2px #97826e;
+}
+
+
+.fa-check{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.notDone .fa-check{
+    display: none;
+}
+.done .fa-check{
+    display: block;
+}

@@ -1,0 +1,38 @@
+.list{
+    width: 70%;
+    height: 100vh;
+   
+    margin: 0 auto;
+    padding-top: 30px;
+    position: relative;
+}
+.list >h4{
+  
+    position: absolute;
+    left: 110px;
+    top: 0;
+    cursor: pointer;
+    margin: 5px;
+    color: rgb(88, 86, 86);
+    
+}
+.add > h4{
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    color: rgb(88, 86, 86);
+
+}
+.date{
+    width: 100px;
+    
+    margin: 5px;
+    margin:10px auto;
+}
+
+.addtxt{
+    border: none;
+}
+.addtxt:focus{
+    border: none;
+}
