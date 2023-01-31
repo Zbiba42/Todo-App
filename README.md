@@ -1,1 +1,1 @@
-run npm install in them main folder aswel in the back-end folder to install the required dependencies. type npm start in the main folder to start react app then in the main folder again type node app.js to start the server .
+run npm install in the main folder aswel in the back-end folder to install the required dependencies. type npm start in the main folder to start react app then in the main folder again type node app.js to start the server .
